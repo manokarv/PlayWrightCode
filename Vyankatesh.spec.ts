@@ -9,6 +9,6 @@ test("Verify the check box selection", async({page})=>
     await page.locator('(//div[@class="display"])[1]//input').nth(1).click()
 
     let checkBoxChecked = await page.locator('(//div[@class="display"])[1]//input').nth(1).isChecked()
-
+//no one run this file
     console.log(checkBoxChecked)
 })
